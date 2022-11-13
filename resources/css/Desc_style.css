@@ -1,0 +1,34 @@
+body{
+    background: url("https://kartinkin.net/uploads/posts/2021-07/1625779478_19-kartinkin-com-p-krasivie-minimalistichnie-oboi-krasivie-19.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 50%;
+}
+
+.div_heading_text {
+    height: 300px;  
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 100px;
+    color:  	#c619fe;
+    letter-spacing: -9px;
+}
+
+.members {
+    font-size: 25px;
+    color: bisque;
+}
+
+.Description {
+    
+}
