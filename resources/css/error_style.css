@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body{
+    background: url("https://kartinkin.net/uploads/posts/2021-07/1625779478_19-kartinkin-com-p-krasivie-minimalistichnie-oboi-krasivie-19.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 50%;
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+body {
+    display: block;
+}
+.section {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+}
+.header_title{
+    font-size: 2em;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.wrapper {
+    display: flex;
+}
+.box_wrapper {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.textbox{
+    position: relative;
+    margin-left: 10px;
+}
+.textarea{
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 100%;
+    padding: 25px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 350px;
+    resize: none;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    border-radius: 8px;
+    border: 1px solid #dae1e8;
+}
+.nowrap {
+    white-space: pre;
+}
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #34547A;
+    color:#fff;
+    border-radius: 8px;
+}
+/*error*/
+.position-ref{
+    position: relative;
+}
+.flex-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.full-height{
+    height: 100vh;
+}
+.code {
+    border-right: 2px solid;
+    font-size: 80px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    color: #c619fe;
+}
+.message {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #c619fe;
+}

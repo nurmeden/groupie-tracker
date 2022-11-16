@@ -1,8 +1,15 @@
 .cards {
     width: 300px;
     height: 360px;
-
+    
 }
+
+.text_GR {
+    font-size: 100px;
+    color: #c619fe;
+    letter-spacing: -10px;
+}
+
 body{
     background: url("https://kartinkin.net/uploads/posts/2021-07/1625779478_19-kartinkin-com-p-krasivie-minimalistichnie-oboi-krasivie-19.jpg");
     background-size: cover;
@@ -38,10 +45,6 @@ body{
     padding-top: 100px;
 }
 
-.text_GR {
-    color: rgb(255, 255, 255);
-    letter-spacing: -4px;
-}
 
 .artist_name {
     color: bisque;

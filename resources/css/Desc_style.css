@@ -28,13 +28,40 @@ body{
 
 .Description {
     background-color: #c619fe;
-    height: 500px;
+    height: auto;
     width: 500px;
     margin: 0 auto;
     border-radius: 30px;
 }
 .memb {
-    font-size: 40px;
+    font-size: 20px;
+    color: #f7d2fe;
+    font-weight: bolder;
+}
+
+.CreationDate {
+    font-size: 20px;
+    color: #f7d2fe;
+    font-weight: bolder;
+
+}
+
+.FirstAlbum {
+    font-size: 20px;
+    color: #f7d2fe;
+    font-weight: bolder;
+
+}
+
+.location {
+    font-size: 20px;
+    color: #f7d2fe;
+    font-weight: bolder;
+}
+
+.Relation {
+    font-size: 20px;
+    color: #f7d2fe;
     font-weight: bolder;
 }
 

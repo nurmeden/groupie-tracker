@@ -79,6 +79,10 @@ func UnmarshalRelation(w http.ResponseWriter, r *http.Request, id int) Relation 
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
+	if r.URL.Path != "/" {
+		controllers.HandlerErrors(w, 404)
+		return
+	}
 	tmpl, err := template.ParseFiles("index.html")
 	if err != nil {
 		controllers.HandlerErrors(w, 500)

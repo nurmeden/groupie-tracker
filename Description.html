@@ -18,11 +18,26 @@
             <p>{{$value}}</p>
             {{ end }}    
         </div>
-        <p>{{.CreationDate}}</p>
-        <p>{{.FirstAlbum}}</p>
-        <p>{{.Location}}</p>
+        <div class="Creation_Date">
+            <p class="CreationDate">Creation Date</p>
+            <p>{{.CreationDate}}</p>
+        </div>
+        <div class="First_Album">
+            <p class="FirstAlbum">First Album</p>
+            <p>{{.FirstAlbum}}</p>
+        </div>
+        <div class="Location">
+            <p class="location">{{.Location}}</p>
+        </div>
+        <p class="Relation">Relation</p>
         {{ range $key, $value  := .Relation.Dates }}
-        <li><strong>{{ $key }}</strong>: {{ $value }} </li>
+        <li><strong>{{$key}}</strong>
+            {{ range $val := $value}}
+            <p>
+                {{ $val }}
+            </p>
+            {{ end }}
+        </li> 
         {{ end }}
     </div>
 </body>
